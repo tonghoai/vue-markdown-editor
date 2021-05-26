@@ -267,6 +267,8 @@ export default component;
 @import '@/styles/var';
 
 .v-md-editor {
+  font-family: $editor-font-family !important;
+
   .codemirror-wrapper {
     height: 100%;
 
@@ -349,6 +351,10 @@ export default component;
 
       .CodeMirror-overlayscroll-vertical {
         right: 2px;
+      }
+
+      .CodeMirror-gutters {
+        border-right: 1px solid $border-color;
       }
     }
   }

@@ -3,7 +3,7 @@ import { LINE_MARKUP } from '@/utils/constants/markup';
 export default {
   data() {
     return {
-      tocVisible: false,
+      tocVisible: true,
       titles: [],
     };
   },

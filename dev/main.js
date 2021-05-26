@@ -31,10 +31,10 @@ import '@/plugins/highlight-lines/highlight-lines';
 import createMermaidPlugin from '@/plugins/mermaid/cdn';
 
 import vuepressTheme from '@/theme/vuepress';
-import enUS from '@/lang/en-US';
+import viVN from '@/lang/vi-VN';
 
 VueMarkdownEditor.Codemirror = Codemirror;
-VueMarkdownEditor.lang.use('en-US', enUS);
+VueMarkdownEditor.lang.use('vi-VN', viVN);
 
 VueMarkdownEditor.use(createEmojiPlugin())
   .use(createKatexPlugin())

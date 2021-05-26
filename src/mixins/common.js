@@ -77,6 +77,9 @@ export default {
     save() {
       this.$emit('save', this.text, this.$refs.preview.html);
     },
+    exit() {
+      this.$emit('exit', true);
+    },
     insert(getInsertContent) {
       this.focus();
 

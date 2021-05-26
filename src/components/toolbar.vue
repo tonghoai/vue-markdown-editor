@@ -8,16 +8,13 @@
         :title="getConfig(toolbarName, 'title')"
         :icon="getConfig(toolbarName, 'icon')"
         :text="getConfig(toolbarName, 'text')"
-        :active="getConfig(toolbarName,'active')"
+        :active="getConfig(toolbarName, 'active')"
         :menus="getConfig(toolbarName, 'menus')"
         :disabled-menus="disabledMenus"
         @click="$emit('item-click', toolbars[toolbarName])"
         @menu-click="$emit('toolbar-menu-click', arguments[0])"
       />
-      <li
-        v-if="idx !== groups.length - 1"
-        class="v-md-editor__toolbar-divider"
-      />
+      <li v-if="idx !== groups.length - 1" class="v-md-editor__toolbar-divider" />
     </template>
   </ul>
 </template>
@@ -56,7 +53,7 @@ export default {
     justify-content: space-between;
     box-sizing: border-box;
     width: 100%;
-    padding: 6px;
+    padding: 12px;
     border-bottom: 1px solid $border-color;
 
     &-left,

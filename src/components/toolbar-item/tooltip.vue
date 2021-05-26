@@ -65,6 +65,7 @@ export default {
     padding: $tooltip-padding;
     color: $tooltip-color;
     font-size: $tooltip-font-size;
+    font-family: $editor-font-family;
     line-height: 1;
     white-space: nowrap;
     background-color: $tooltip-background;

@@ -113,7 +113,6 @@ export default {
         return;
       }
 
-
       if (this.timmer) clearTimeout(this.timmer);
 
       const selfElRect = selfEl.getBoundingClientRect();

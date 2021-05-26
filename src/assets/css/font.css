@@ -9,7 +9,7 @@
 }
 
 [class*='v-md-icon-'] {
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'v-md-iconfont' !important;
   font-style: normal !important;
   -webkit-font-smoothing: antialiased;
@@ -130,4 +130,8 @@
 
 .v-md-icon-fullscreen::before {
   content: '\e606';
+}
+
+.v-md-icon-exit::before {
+  content: '\2715';
 }

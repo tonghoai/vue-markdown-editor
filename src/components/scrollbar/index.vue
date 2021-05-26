@@ -73,7 +73,6 @@ export default {
       });
     },
 
-
     handleScroll() {
       const { wrap } = this;
 

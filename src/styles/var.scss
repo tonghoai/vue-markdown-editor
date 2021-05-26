@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
 // color
 $text-color: #2c3e50;
 $text-color-placeholder: #c0c4cc;
@@ -6,19 +8,18 @@ $text-color-placeholder: #c0c4cc;
 $box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
 
 // editor
-$editor-font-family: menlo, 'Ubuntu Mono', consolas, 'Courier New', 'Microsoft Yahei',
-  'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
+$editor-font-family: 'Fira Code', monospace;
 $editor-line-height: 1.5;
-$editor-font-size: 14px;
+$editor-font-size: 16px;
 
 // border-color
-$border-color: #ddd;
+$border-color: #f5f5f5;
 
 // toolbar
 $toolbar-font-size: 16px;
 $toolbar-text-color: #595959;
 $toolbar-hover-background: #f5f5f5;
-$toolbar-active-background: #e8e8e8;
+$toolbar-active-background: #f6f8fa;
 
 // menu
 $menu-font-size: 14px;
@@ -26,7 +27,7 @@ $menu-font-size: 14px;
 // tooltip
 $tooltip-color: #fff;
 $tooltip-background: #878787;
-$tooltip-border-radius: 2px;
+$tooltip-border-radius: 3px;
 $tooltip-z-index: 101;
 $tooltip-padding: 4px 6px;
 $tooltip-font-size: 12px;

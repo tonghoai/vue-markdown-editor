@@ -9,6 +9,7 @@
       @fullscreen-change="handleFullscreenChange"
       @save="handleSave"
       @copy-code-success="handleCopyCodeSuccess"
+      @exit="handleSave"
       ref="editor"
     />
   </div>
@@ -41,6 +42,9 @@ export default {
     handleCopyCodeSuccess(code) {
       console.log(code);
     },
+    listenClick(v) {
+      console.log("listenClick", v);
+    }
   },
 };
 </script>
