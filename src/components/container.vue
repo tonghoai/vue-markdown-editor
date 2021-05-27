@@ -95,7 +95,7 @@ export default {
     leftAreaTitle: String,
     leftAreaWidth: {
       type: String,
-      default: '200px',
+      default: '250px',
     },
     mode: {
       type: String,

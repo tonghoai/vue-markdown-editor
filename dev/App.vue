@@ -10,6 +10,9 @@
       @save="handleSave"
       @copy-code-success="handleCopyCodeSuccess"
       @exit="handleSave"
+      mode="edit"
+      :default-fullscreen="true"
+      right-toolbar="preview exit"
       ref="editor"
     />
   </div>

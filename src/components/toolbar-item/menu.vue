@@ -162,6 +162,7 @@ export default {
         padding: 0 24px;
         line-height: 34px;
         text-align: left;
+        font-family: $editor-font-family;
       }
     }
 

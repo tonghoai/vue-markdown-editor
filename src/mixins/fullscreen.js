@@ -26,7 +26,8 @@ export default {
     handleWindowKeyup(e) {
       // esc
       if (e.keyCode === 27 && this.fullscreen) {
-        this.toggleFullScreen(false);
+        // this.toggleFullScreen(false);
+
       }
     },
     toggleFullScreen(fullscreen = !this.fullscreen) {
